@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Brahamadnayak</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="website.html" class="nav-logo">
+
+            <img src="assest/brahamadnayak_logo.png"
+                 alt="Brahamadnayak Logo">
+
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+
+            <a href="#home" data-text="home">
+                Home
+            </a>
+
+            <a href="#services" data-text="services">
+                Services
+            </a>
+
+            <a href="#booking" data-text="booking">
+                Book Service
+            </a>
+
+            <a href="#contact" data-text="contact">
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                BRAHAMADNAYAK
+            </p>
+
+            <h1 data-text="heroTitle">
+                Your Home,
+                Our Responsibility
+            </h1>
+
+            <p data-text="heroDescription">
+                Professional home repair and maintenance
+                services at your doorstep.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#booking" class="primary-btn"
+                   data-text="bookNow">
+                    Book a Service
+                </a>
+
+                <a href="tel:9075439504"
+                   class="secondary-btn"
+                   data-text="callNow">
+                    Call Now
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img src="assest/brahamadnayak_logo.png"
+                 alt="Brahamadnayak Home Services">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="section">
+
+    <div class="section-title">
+
+        <p>OUR SERVICES</p>
+
+        <h2 data-text="servicesTitle">
+            Professional Home Services
+        </h2>
+
+        <span></span>
+
+    </div>
+
+    <div id="servicesContainer"
+         class="services-grid">
+
+    </div>
+
+</section>
+
+
+<!-- ================= BOOKING ================= -->
+
+<section id="booking" class="booking-section">
+
+    <div class="booking-container">
+
+        <div class="booking-info">
+
+            <p class="small-title">
+                BRAHAMADNAYAK
+            </p>
+
+            <h2 data-text="bookingTitle">
+                Need a Home Service?
+            </h2>
+
+            <p data-text="bookingDescription">
+                Fill the form and send your service request
+                directly to us on WhatsApp.
+            </p>
+
+            <div class="booking-points">
+
+                <div>
+                    ✓ Quick Response
+                </div>
+
+                <div>
+                    ✓ Professional Service
+                </div>
+
+                <div>
+                    ✓ Home Visit
+                </div>
+
+                <div>
+                    ✓ Easy WhatsApp Booking
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="form-box">
+
+            <form id="bookingForm">
+
+                <label data-text="nameLabel">
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label data-text="addressLabel">
+                    Home Address
+                </label>
+
+                <textarea
+                    id="address"
+                    placeholder="Enter your home address"
+                    rows="3"
+                    required></textarea>
+
+
+                <label data-text="mobileLabel">
+                    Mobile Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="mobile"
+                    placeholder="Enter mobile number"
+                    maxlength="10"
+                    required
+                >
+
+
+                <label data-text="serviceLabel">
+                    Select Service
+                </label>
+
+                <select id="service" required>
+
+                    <option value="">
+                        Select a service
+                    </option>
+
+                </select>
+
+
+                <label data-text="problemLabel">
+                    Task / Problem
+                </label>
+
+                <textarea
+                    id="problem"
+                    placeholder="Describe your problem"
+                    rows="4"
+                    required></textarea>
+
+
+                <button type="submit"
+                        class="whatsapp-btn">
+
+                    <span>💬</span>
+
+                    <span data-text="sendWhatsApp">
+                        Send Request on WhatsApp
+                    </span>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-title">
+
+        <p>CONTACT US</p>
+
+        <h2 data-text="contactTitle">
+            Get In Touch
+        </h2>
+
+        <span></span>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                📞
+            </div>
+
+            <h3 data-text="call">
+                Call Us
+            </h3>
+
+            <a href="tel:9075439504">
+                9075439504
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                💬
+            </div>
+
+            <h3>
+                WhatsApp
+            </h3>
+
+            <a href="https://wa.me/919075439504"
+               target="_blank">
+
+                9075439504
+
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                👨‍🔧
+            </div>
+
+            <h3 data-text="manager">
+                Service Manager
+            </h3>
+
+            <p>
+                Sachin Bade
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="assest/brahamadnayak_logo.png"
+             alt="Brahamadnayak Logo">
+
+    </div>
+
+    <h3>BRAHAMADNAYAK</h3>
+
+    <p>
+        Home Service Experts
+    </p>
+
+    <p class="copyright">
+        © 2026 Brahamadnayak. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- CURSOR GLOW -->
+
+<div id="cursorGlow"></div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
