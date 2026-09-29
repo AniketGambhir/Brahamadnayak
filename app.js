@@ -1,64 +1,7 @@
 /* =========================================
-   BRAHAMADNAYAK WEBSITE JAVASCRIPT
+   BRAHAMADNAYAK HOME SERVICES
+   Language + WhatsApp + Interactions
 ========================================= */
-
-
-/* =========================================
-   WHATSAPP NUMBER
-========================================= */
-
-const WHATSAPP_NUMBER = "919075439504";
-
-
-/* =========================================
-   SERVICES
-========================================= */
-
-const services = [
-
-    {
-        icon: "🧺",
-        en: "Washing Machine",
-        mr: "वॉशिंग मशीन",
-        hi: "वॉशिंग मशीन"
-    },
-
-    {
-        icon: "💧",
-        en: "Water Filter / Purifier",
-        mr: "वॉटर फिल्टर / प्युरिफायर",
-        hi: "वॉटर फिल्टर / प्युरिफायर"
-    },
-
-    {
-        icon: "🔥",
-        en: "Geyser",
-        mr: "गीझर",
-        hi: "गीजर"
-    },
-
-    {
-        icon: "❄️",
-        en: "Water Cooler",
-        mr: "वॉटर कूलर",
-        hi: "वॉटर कूलर"
-    },
-
-    {
-        icon: "🌀",
-        en: "Fan Repairing",
-        mr: "पंखा दुरुस्ती",
-        hi: "पंखा रिपेयरिंग"
-    },
-
-    {
-        icon: "⚡",
-        en: "Home Wiring",
-        mr: "घरातील वायरिंग",
-        hi: "घर की वायरिंग"
-    }
-
-];
 
 
 /* =========================================
@@ -69,98 +12,94 @@ const translations = {
 
     en: {
 
-        home: "Home",
+        welcome: "WELCOME TO",
 
-        services: "Services",
-
-        booking: "Book Service",
-
-        contact: "Contact",
-
-        heroTitle:
-            "Your Home, Our Responsibility",
+        homeServices: "HOME SERVICE EXPERTS",
 
         heroDescription:
-            "Professional home repair and maintenance services at your doorstep.",
+            "Reliable repair and home services at your doorstep.",
 
-        bookNow:
-            "Book a Service",
+        viewServices: "View Services",
 
-        callNow:
-            "Call Now",
+        ourServices: "OUR SERVICES",
 
         servicesTitle:
             "Professional Home Services",
 
+        servicesDescription:
+            "We provide reliable repair and maintenance services for your home.",
+
+        bookService: "BOOK A SERVICE",
+
         bookingTitle:
-            "Need a Home Service?",
+            "Request a Service",
 
         bookingDescription:
-            "Fill the form and send your service request directly to us on WhatsApp.",
+            "Enter your details and contact us directly on WhatsApp.",
 
-        nameLabel:
-            "Your Name",
+        nameLabel: "Your Name",
 
-        addressLabel:
-            "Home Address",
+        addressLabel: "Home Address",
 
-        mobileLabel:
-            "Mobile Number",
+        mobileLabel: "Mobile Number",
 
-        serviceLabel:
-            "Select Service",
+        serviceLabel: "Select Service",
 
-        problemLabel:
-            "Task / Problem",
+        problemLabel: "Problem / Task",
 
         sendWhatsApp:
-            "Send Request on WhatsApp",
+            "Send Booking on WhatsApp",
 
-        contactTitle:
-            "Get In Touch",
+        contactUs: "CONTACT US",
 
-        call:
-            "Call Us",
+        contactTitle: "Get in Touch",
 
-        manager:
-            "Service Manager"
+        manager: "Manager",
 
+        whatsapp: "WhatsApp",
+
+        serviceArea: "Service",
+
+        serviceAreaText: "Home Service",
+
+        footerText:
+            "Your Home | Our Responsibility"
     },
 
 
     mr: {
 
-        home: "मुख्यपृष्ठ",
+        welcome: "आपले स्वागत आहे",
 
-        services: "सेवा",
-
-        booking: "सेवा बुक करा",
-
-        contact: "संपर्क",
-
-        heroTitle:
-            "तुमचे घर, आमची जबाबदारी",
+        homeServices:
+            "घरगुती सेवा तज्ञ",
 
         heroDescription:
-            "तुमच्या घरासाठी व्यावसायिक दुरुस्ती आणि देखभाल सेवा.",
+            "आपल्या घराच्या दारात विश्वासार्ह दुरुस्ती आणि घरगुती सेवा.",
 
-        bookNow:
-            "सेवा बुक करा",
+        viewServices:
+            "सेवा पहा",
 
-        callNow:
-            "आत्ता कॉल करा",
+        ourServices:
+            "आमच्या सेवा",
 
         servicesTitle:
-            "आमच्या व्यावसायिक घरगुती सेवा",
+            "व्यावसायिक घरगुती सेवा",
+
+        servicesDescription:
+            "आम्ही आपल्या घरासाठी विश्वासार्ह दुरुस्ती आणि देखभाल सेवा देतो.",
+
+        bookService:
+            "सेवा बुक करा",
 
         bookingTitle:
-            "घरगुती सेवेची गरज आहे?",
+            "सेवेची विनंती करा",
 
         bookingDescription:
-            "फॉर्म भरा आणि तुमची सेवा विनंती थेट WhatsApp वर पाठवा.",
+            "आपली माहिती भरा आणि थेट WhatsApp वर संपर्क करा.",
 
         nameLabel:
-            "तुमचे नाव",
+            "आपले नाव",
 
         addressLabel:
             "घराचा पत्ता",
@@ -172,53 +111,65 @@ const translations = {
             "सेवा निवडा",
 
         problemLabel:
-            "काम / समस्या",
+            "समस्या / काम",
 
         sendWhatsApp:
-            "WhatsApp वर विनंती पाठवा",
+            "WhatsApp वर बुकिंग पाठवा",
 
-        contactTitle:
+        contactUs:
             "आमच्याशी संपर्क करा",
 
-        call:
-            "कॉल करा",
+        contactTitle:
+            "संपर्क साधा",
 
         manager:
-            "सेवा व्यवस्थापक"
+            "व्यवस्थापक",
 
+        whatsapp:
+            "WhatsApp",
+
+        serviceArea:
+            "सेवा",
+
+        serviceAreaText:
+            "घरगुती सेवा",
+
+        footerText:
+            "आपले घर | आमची जबाबदारी"
     },
 
 
     hi: {
 
-        home: "होम",
+        welcome:
+            "आपका स्वागत है",
 
-        services: "सेवाएं",
-
-        booking: "सेवा बुक करें",
-
-        contact: "संपर्क",
-
-        heroTitle:
-            "आपका घर, हमारी जिम्मेदारी",
+        homeServices:
+            "होम सर्विस विशेषज्ञ",
 
         heroDescription:
-            "आपके घर के लिए प्रोफेशनल रिपेयर और मेंटेनेंस सेवाएं.",
+            "आपके घर पर विश्वसनीय मरम्मत और घरेलू सेवाएं।",
 
-        bookNow:
-            "सेवा बुक करें",
+        viewServices:
+            "सेवाएं देखें",
 
-        callNow:
-            "अभी कॉल करें",
+        ourServices:
+            "हमारी सेवाएं",
 
         servicesTitle:
             "प्रोफेशनल होम सर्विस",
 
+        servicesDescription:
+            "हम आपके घर के लिए विश्वसनीय मरम्मत और रखरखाव सेवाएं प्रदान करते हैं।",
+
+        bookService:
+            "सेवा बुक करें",
+
         bookingTitle:
-            "क्या आपको होम सर्विस चाहिए?",
+            "सेवा के लिए अनुरोध करें",
 
         bookingDescription:
-            "फॉर्म भरें और अपनी सर्विस रिक्वेस्ट सीधे WhatsApp पर भेजें.",
+            "अपनी जानकारी भरें और सीधे WhatsApp पर संपर्क करें।",
 
         nameLabel:
             "आपका नाम",
@@ -233,20 +184,176 @@ const translations = {
             "सेवा चुनें",
 
         problemLabel:
-            "काम / समस्या",
+            "समस्या / काम",
 
         sendWhatsApp:
-            "WhatsApp पर रिक्वेस्ट भेजें",
+            "WhatsApp पर बुकिंग भेजें",
+
+        contactUs:
+            "संपर्क करें",
 
         contactTitle:
             "हमसे संपर्क करें",
 
-        call:
-            "कॉल करें",
-
         manager:
-            "सेवा प्रबंधक"
+            "प्रबंधक",
 
+        whatsapp:
+            "WhatsApp",
+
+        serviceArea:
+            "सेवा",
+
+        serviceAreaText:
+            "घरेलू सेवा",
+
+        footerText:
+            "आपका घर | हमारी जिम्मेदारी"
+    }
+
+};
+
+
+/* =========================================
+   SERVICE TRANSLATIONS
+========================================= */
+
+const serviceTranslations = {
+
+    en: {
+
+        washingMachine: "Washing Machine",
+
+        purifier: "Water Filter / Purifier",
+
+        geyser: "Geyser",
+
+        cooler: "Water Cooler",
+
+        fan: "Fan Repairing",
+
+        wiring: "Home Wiring",
+
+        fridge: "Fridge Repair"
+    },
+
+
+    mr: {
+
+        washingMachine: "वॉशिंग मशीन",
+
+        purifier: "वॉटर फिल्टर / प्युरिफायर",
+
+        geyser: "गीझर",
+
+        cooler: "वॉटर कूलर",
+
+        fan: "पंखा दुरुस्ती",
+
+        wiring: "घरातील वायरिंग",
+
+        fridge: "फ्रिज दुरुस्ती"
+    },
+
+
+    hi: {
+
+        washingMachine: "वॉशिंग मशीन",
+
+        purifier: "वॉटर फिल्टर / प्यूरीफायर",
+
+        geyser: "गीजर",
+
+        cooler: "वॉटर कूलर",
+
+        fan: "पंखा मरम्मत",
+
+        wiring: "होम वायरिंग",
+
+        fridge: "फ्रिज मरम्मत"
+    }
+
+};
+
+
+/* =========================================
+   SERVICE DESCRIPTIONS
+========================================= */
+
+const serviceDescriptions = {
+
+    en: {
+
+        washingMachine:
+            "Washing machine repair and maintenance.",
+
+        purifier:
+            "Water purifier repair and servicing.",
+
+        geyser:
+            "Geyser repair and installation service.",
+
+        cooler:
+            "Water cooler repair and maintenance.",
+
+        fan:
+            "Ceiling and other household fan repair.",
+
+        wiring:
+            "Home electrical wiring and repair services.",
+
+        fridge:
+            "Refrigerator repair, cooling problems and maintenance."
+    },
+
+
+    mr: {
+
+        washingMachine:
+            "वॉशिंग मशीन दुरुस्ती आणि देखभाल.",
+
+        purifier:
+            "वॉटर प्युरिफायर दुरुस्ती आणि सर्व्हिसिंग.",
+
+        geyser:
+            "गीझर दुरुस्ती आणि इंस्टॉलेशन सेवा.",
+
+        cooler:
+            "वॉटर कूलर दुरुस्ती आणि देखभाल.",
+
+        fan:
+            "सीलिंग आणि घरगुती पंख्यांची दुरुस्ती.",
+
+        wiring:
+            "घरातील इलेक्ट्रिकल वायरिंग आणि दुरुस्ती.",
+
+        fridge:
+            "फ्रिज दुरुस्ती, कूलिंग समस्या आणि देखभाल."
+    },
+
+
+    hi: {
+
+        washingMachine:
+            "वॉशिंग मशीन की मरम्मत और रखरखाव।",
+
+        purifier:
+            "वॉटर प्यूरीफायर की मरम्मत और सर्विसिंग।",
+
+        geyser:
+            "गीजर की मरम्मत और इंस्टॉलेशन सेवा।",
+
+        cooler:
+            "वॉटर कूलर की मरम्मत और रखरखाव।",
+
+        fan:
+            "सीलिंग और घरेलू पंखे की मरम्मत।",
+
+        wiring:
+            "घरेलू इलेक्ट्रिकल वायरिंग और मरम्मत।",
+
+        fridge:
+            "फ्रिज की मरम्मत, कूलिंग समस्या और रखरखाव।"
     }
 
 };
@@ -256,26 +363,45 @@ const translations = {
    GET LANGUAGE
 ========================================= */
 
-const urlParams =
-    new URLSearchParams(window.location.search);
+function getLanguage() {
 
-let currentLanguage =
-    urlParams.get("lang") || "en";
+    const params = new URLSearchParams(
+        window.location.search
+    );
 
+    const language = params.get("lang");
 
-if (!translations[currentLanguage]) {
-    currentLanguage = "en";
+    if (
+        language === "mr" ||
+        language === "hi" ||
+        language === "en"
+    ) {
+        return language;
+    }
+
+    return "en";
 }
 
 
 /* =========================================
-   APPLY TRANSLATION
+   APPLY LANGUAGE
 ========================================= */
 
-function applyLanguage() {
+function applyLanguage(language) {
 
-    const language =
-        translations[currentLanguage];
+    const data =
+        translations[language] || translations.en;
+
+    const serviceData =
+        serviceTranslations[language] ||
+        serviceTranslations.en;
+
+    const descriptionData =
+        serviceDescriptions[language] ||
+        serviceDescriptions.en;
+
+
+    /* Normal text */
 
     document
         .querySelectorAll("[data-text]")
@@ -284,359 +410,323 @@ function applyLanguage() {
             const key =
                 element.getAttribute("data-text");
 
-            if (language[key]) {
-
-                element.textContent =
-                    language[key];
-
+            if (data[key]) {
+                element.textContent = data[key];
             }
 
         });
 
+
+    /* Service names */
+
+    document
+        .querySelectorAll("[data-service]")
+        .forEach(element => {
+
+            const key =
+                element.getAttribute("data-service");
+
+            if (serviceData[key]) {
+                element.textContent =
+                    serviceData[key];
+            }
+
+        });
+
+
+    /* Service descriptions */
+
+    document
+        .querySelectorAll("[data-service-desc]")
+        .forEach(element => {
+
+            const key =
+                element.getAttribute("data-service-desc");
+
+            if (descriptionData[key]) {
+                element.textContent =
+                    descriptionData[key];
+            }
+
+        });
+
+
+    /* Form placeholders */
+
+    const nameInput =
+        document.getElementById("customerName");
+
+    const addressInput =
+        document.getElementById("customerAddress");
+
+    const mobileInput =
+        document.getElementById("customerMobile");
+
+    const problemInput =
+        document.getElementById("customerProblem");
+
+
+    if (language === "mr") {
+
+        if (nameInput)
+            nameInput.placeholder =
+                "आपले नाव लिहा";
+
+        if (addressInput)
+            addressInput.placeholder =
+                "आपला घराचा पत्ता लिहा";
+
+        if (mobileInput)
+            mobileInput.placeholder =
+                "10 अंकी मोबाईल नंबर लिहा";
+
+        if (problemInput)
+            problemInput.placeholder =
+                "आपली समस्या लिहा";
+
+    }
+
+
+    else if (language === "hi") {
+
+        if (nameInput)
+            nameInput.placeholder =
+                "अपना नाम लिखें";
+
+        if (addressInput)
+            addressInput.placeholder =
+                "अपना घर का पता लिखें";
+
+        if (mobileInput)
+            mobileInput.placeholder =
+                "10 अंकों का मोबाइल नंबर लिखें";
+
+        if (problemInput)
+            problemInput.placeholder =
+                "अपनी समस्या लिखें";
+
+    }
+
+
+    else {
+
+        if (nameInput)
+            nameInput.placeholder =
+                "Enter your name";
+
+        if (addressInput)
+            addressInput.placeholder =
+                "Enter your home address";
+
+        if (mobileInput)
+            mobileInput.placeholder =
+                "Enter 10-digit mobile number";
+
+        if (problemInput)
+            problemInput.placeholder =
+                "Describe your problem";
+
+    }
+
 }
 
 
 /* =========================================
-   DISPLAY SERVICES
+   WHATSAPP BOOKING
 ========================================= */
 
-function displayServices() {
+function setupBooking() {
 
-    const container =
-        document.getElementById("servicesContainer");
+    const form =
+        document.getElementById("bookingForm");
 
-    const select =
-        document.getElementById("service");
-
-    if (!container || !select) {
+    if (!form) {
         return;
     }
 
 
-    container.innerHTML = "";
+    form.addEventListener("submit", function(event) {
 
-    select.innerHTML = "";
+        event.preventDefault();
 
-
-    /* Default option */
-
-    const defaultOption =
-        document.createElement("option");
-
-    defaultOption.value = "";
-
-    defaultOption.textContent =
-        currentLanguage === "mr"
-            ? "सेवा निवडा"
-            : currentLanguage === "hi"
-                ? "सेवा चुनें"
-                : "Select a service";
-
-    select.appendChild(defaultOption);
-
-
-    /* Services */
-
-    services.forEach(service => {
 
         const name =
-            service[currentLanguage];
-
-
-        /* CARD */
-
-        const card =
-            document.createElement("div");
-
-        card.className =
-            "service-card";
-
-
-        card.innerHTML = `
-
-            <div class="service-icon">
-                ${service.icon}
-            </div>
-
-            <h3>
-                ${name}
-            </h3>
-
-            <p>
-                ${getServiceDescription(service)}
-            </p>
-
-        `;
-
-
-        container.appendChild(card);
-
-
-        /* SELECT OPTION */
-
-        const option =
-            document.createElement("option");
-
-        option.value =
-            name;
-
-        option.textContent =
-            name;
-
-        select.appendChild(option);
-
-    });
-
-}
-
-
-/* =========================================
-   SERVICE DESCRIPTION
-========================================= */
-
-function getServiceDescription(service) {
-
-    if (currentLanguage === "mr") {
-
-        return "व्यावसायिक आणि विश्वासार्ह सेवा तुमच्या घरपोच.";
-
-    }
-
-    if (currentLanguage === "hi") {
-
-        return "आपके घर पर भरोसेमंद और प्रोफेशनल सर्विस.";
-
-    }
-
-    return "Professional and reliable service at your doorstep.";
-}
-
-
-/* =========================================
-   FORM SUBMISSION
-========================================= */
-
-const bookingForm =
-    document.getElementById("bookingForm");
-
-
-if (bookingForm) {
-
-    bookingForm.addEventListener(
-        "submit",
-        function(event) {
-
-            event.preventDefault();
-
-
-            const name =
-                document
-                .getElementById("name")
+            document
+                .getElementById("customerName")
                 .value.trim();
 
 
-            const address =
-                document
-                .getElementById("address")
+        const address =
+            document
+                .getElementById("customerAddress")
                 .value.trim();
 
 
-            const mobile =
-                document
-                .getElementById("mobile")
+        const mobile =
+            document
+                .getElementById("customerMobile")
                 .value.trim();
 
 
-            const service =
-                document
-                .getElementById("service")
+        const service =
+            document
+                .getElementById("serviceSelect")
                 .value;
 
 
-            const problem =
-                document
-                .getElementById("problem")
+        const problem =
+            document
+                .getElementById("customerProblem")
                 .value.trim();
 
 
-            /* MOBILE VALIDATION */
+        /* Mobile validation */
 
-            if (!/^[0-9]{10}$/.test(mobile)) {
+        if (!/^[0-9]{10}$/.test(mobile)) {
 
-                const message =
-                    currentLanguage === "mr"
-                        ? "कृपया 10 अंकी मोबाईल नंबर टाका."
-                        : currentLanguage === "hi"
-                            ? "कृपया 10 अंकों का मोबाइल नंबर दर्ज करें."
-                            : "Please enter a valid 10-digit mobile number.";
+            alert(
+                "Please enter a valid 10-digit mobile number."
+            );
 
-                alert(message);
-
-                return;
-            }
+            return;
+        }
 
 
-            /* WHATSAPP MESSAGE */
+        if (!service) {
 
-            let whatsappMessage = "";
+            alert(
+                "Please select a service."
+            );
+
+            return;
+        }
 
 
-            if (currentLanguage === "mr") {
+        /* WhatsApp number */
 
-                whatsappMessage =
-`नमस्कार Brahamadnayak,
+        const businessNumber =
+            "919075439504";
 
-मला घरगुती सेवेची आवश्यकता आहे.
+
+        const language =
+            getLanguage();
+
+
+        let message = "";
+
+
+        if (language === "mr") {
+
+            message =
+                `नमस्कार ब्रह्मांडनायक,
+
+मला घरगुती सेवा बुक करायची आहे.
 
 नाव: ${name}
 
-घराचा पत्ता: ${address}
+पत्ता: ${address}
 
-मोबाईल नंबर: ${mobile}
+मोबाईल: ${mobile}
 
 सेवा: ${service}
 
-काम / समस्या:
+समस्या / काम:
 ${problem}
 
-कृपया माझ्याशी संपर्क साधा.
+कृपया माझ्याशी संपर्क करा.
 
 धन्यवाद.`;
 
-            }
+        }
 
-            else if (currentLanguage === "hi") {
 
-                whatsappMessage =
-`नमस्ते Brahamadnayak,
+        else if (language === "hi") {
 
-मुझे होम सर्विस की आवश्यकता है.
+            message =
+                `नमस्ते ब्रह्मांडनायक,
+
+मुझे होम सर्विस बुक करनी है।
 
 नाम: ${name}
 
-घर का पता: ${address}
+पता: ${address}
 
-मोबाइल नंबर: ${mobile}
+मोबाइल: ${mobile}
 
 सेवा: ${service}
 
-काम / समस्या:
+समस्या / काम:
 ${problem}
 
-कृपया मुझसे संपर्क करें.
+कृपया मुझसे संपर्क करें।
 
-धन्यवाद.`;
+धन्यवाद।`;
 
-            }
+        }
 
-            else {
 
-                whatsappMessage =
-`Hello Brahamadnayak,
+        else {
 
-I need a home service.
+            message =
+                `Hello Brahamadnayak,
+
+I would like to book a home service.
 
 Name: ${name}
 
-Home Address: ${address}
+Address: ${address}
 
-Mobile Number: ${mobile}
+Mobile: ${mobile}
 
 Service: ${service}
 
-Task / Problem:
+Problem / Task:
 ${problem}
 
 Please contact me.
 
 Thank you.`;
 
-            }
-
-
-            /* WHATSAPP URL */
-
-            const whatsappURL =
-                `https://wa.me/${WHATSAPP_NUMBER}?text=` +
-                encodeURIComponent(whatsappMessage);
-
-
-            /* OPEN WHATSAPP */
-
-            window.open(
-                whatsappURL,
-                "_blank"
-            );
-
         }
-    );
-
-}
 
 
-/* =========================================
-   MOBILE MENU
-========================================= */
-
-function toggleMenu() {
-
-    const nav =
-        document.getElementById("navMenu");
-
-    if (nav) {
-
-        nav.classList.toggle("active");
-
-    }
-
-}
+        const whatsappURL =
+            `https://wa.me/${businessNumber}?text=` +
+            encodeURIComponent(message);
 
 
-/* =========================================
-   CLOSE MOBILE MENU
-========================================= */
-
-document
-    .querySelectorAll("#navMenu a")
-    .forEach(link => {
-
-        link.addEventListener(
-            "click",
-            function() {
-
-                const nav =
-                    document.getElementById("navMenu");
-
-                if (nav) {
-
-                    nav.classList.remove("active");
-
-                }
-
-            }
+        window.open(
+            whatsappURL,
+            "_blank"
         );
 
     });
+
+}
 
 
 /* =========================================
    CURSOR GLOW
 ========================================= */
 
-const cursorGlow =
-    document.getElementById("cursorGlow");
+function setupCursorGlow() {
 
+    const glow =
+        document.querySelector(".cursor-glow");
 
-if (cursorGlow) {
+    if (!glow) {
+        return;
+    }
+
 
     document.addEventListener(
         "mousemove",
         function(event) {
 
-            cursorGlow.style.left =
+            glow.style.left =
                 event.clientX + "px";
 
-            cursorGlow.style.top =
+            glow.style.top =
                 event.clientY + "px";
 
         }
@@ -646,9 +736,42 @@ if (cursorGlow) {
 
 
 /* =========================================
+   COPYRIGHT YEAR
+========================================= */
+
+function setupYear() {
+
+    const year =
+        document.getElementById("year");
+
+    if (year) {
+
+        year.textContent =
+            new Date().getFullYear();
+
+    }
+
+}
+
+
+/* =========================================
    START WEBSITE
 ========================================= */
 
-applyLanguage();
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
 
-displayServices();
+        const language =
+            getLanguage();
+
+        applyLanguage(language);
+
+        setupBooking();
+
+        setupCursorGlow();
+
+        setupYear();
+
+    }
+);
