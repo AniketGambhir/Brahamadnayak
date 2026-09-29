@@ -8,7 +8,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Brahamadnayak</title>
+    <title>Brahamadnayak Home Services</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -16,240 +16,394 @@
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+    <div class="cursor-glow"></div>
 
-<header class="navbar">
+    <!-- NAVIGATION -->
 
-    <div class="nav-container">
+    <header class="navbar">
 
-        <a href="website.html" class="nav-logo">
+        <div class="nav-container">
 
-            <img src="assest/brahamadnayak_logo.png"
-                 alt="Brahamadnayak Logo">
+            <a href="#home" class="brand">
 
-        </a>
+                <img src="assest/brahamadnayak_logo.png"
+                     alt="Brahamadnayak Logo">
 
-        <button class="menu-btn" onclick="toggleMenu()">
-            ☰
-        </button>
+                <span>BRAHAMADNAYAK</span>
 
-        <nav id="navMenu">
-
-            <a href="#home" data-text="home">
-                Home
             </a>
 
-            <a href="#services" data-text="services">
-                Services
-            </a>
+            <nav>
 
-            <a href="#booking" data-text="booking">
-                Book Service
-            </a>
+                <a href="#home" data-nav="home">
+                    Home
+                </a>
 
-            <a href="#contact" data-text="contact">
-                Contact
-            </a>
+                <a href="#services" data-nav="services">
+                    Services
+                </a>
 
-        </nav>
+                <a href="#booking" data-nav="booking">
+                    Booking
+                </a>
 
-    </div>
+                <a href="#contact" data-nav="contact">
+                    Contact
+                </a>
 
-</header>
+            </nav>
+
+        </div>
+
+    </header>
 
 
-<!-- ================= HOME ================= -->
+    <!-- HOME -->
 
-<section id="home" class="hero">
+    <section id="home" class="hero">
 
-    <div class="hero-content">
+        <div class="hero-content">
 
-        <div class="hero-text">
-
-            <p class="small-title">
-                BRAHAMADNAYAK
+            <p class="small-title" data-text="welcome">
+                WELCOME TO
             </p>
 
-            <h1 data-text="heroTitle">
-                Your Home,
-                Our Responsibility
+            <h1>
+                BRAHAMADNAYAK
             </h1>
 
-            <p data-text="heroDescription">
-                Professional home repair and maintenance
-                services at your doorstep.
+            <h2 data-text="homeServices">
+                HOME SERVICE EXPERTS
+            </h2>
+
+            <p class="hero-description"
+               data-text="heroDescription">
+
+                Reliable repair and home services at your doorstep.
+
             </p>
 
-            <div class="hero-buttons">
+            <a href="#services"
+               class="primary-btn"
+               data-text="viewServices">
 
-                <a href="#booking" class="primary-btn"
-                   data-text="bookNow">
-                    Book a Service
-                </a>
+                View Services
 
-                <a href="tel:9075439504"
-                   class="secondary-btn"
-                   data-text="callNow">
-                    Call Now
-                </a>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section id="services" class="section">
+
+        <div class="section-heading">
+
+            <p class="section-small"
+               data-text="ourServices">
+                OUR SERVICES
+            </p>
+
+            <h2 data-text="servicesTitle">
+                Professional Home Services
+            </h2>
+
+            <p data-text="servicesDescription">
+                We provide reliable repair and maintenance services
+                for your home.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <!-- WASHING MACHINE -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🧺
+                </div>
+
+                <h3 data-service="washingMachine">
+                    Washing Machine
+                </h3>
+
+                <p data-service-desc="washingMachine">
+                    Washing machine repair and maintenance.
+                </p>
 
             </div>
 
+
+            <!-- PURIFIER -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    💧
+                </div>
+
+                <h3 data-service="purifier">
+                    Water Filter / Purifier
+                </h3>
+
+                <p data-service-desc="purifier">
+                    Water purifier repair and servicing.
+                </p>
+
+            </div>
+
+
+            <!-- GEYSER -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ♨️
+                </div>
+
+                <h3 data-service="geyser">
+                    Geyser
+                </h3>
+
+                <p data-service-desc="geyser">
+                    Geyser repair and installation service.
+                </p>
+
+            </div>
+
+
+            <!-- COOLER -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ❄️
+                </div>
+
+                <h3 data-service="cooler">
+                    Water Cooler
+                </h3>
+
+                <p data-service-desc="cooler">
+                    Water cooler repair and maintenance.
+                </p>
+
+            </div>
+
+
+            <!-- FAN -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🌀
+                </div>
+
+                <h3 data-service="fan">
+                    Fan Repairing
+                </h3>
+
+                <p data-service-desc="fan">
+                    Ceiling and other household fan repair.
+                </p>
+
+            </div>
+
+
+            <!-- WIRING -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ⚡
+                </div>
+
+                <h3 data-service="wiring">
+                    Home Wiring
+                </h3>
+
+                <p data-service-desc="wiring">
+                    Home electrical wiring and repair services.
+                </p>
+
+            </div>
+
+
+            <!-- FRIDGE -->
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🧊
+                </div>
+
+                <h3 data-service="fridge">
+                    Fridge Repair
+                </h3>
+
+                <p data-service-desc="fridge">
+                    Refrigerator repair, cooling problems
+                    and maintenance.
+                </p>
+
+            </div>
+
+
         </div>
 
-
-        <div class="hero-image">
-
-            <img src="assest/brahamadnayak_logo.png"
-                 alt="Brahamadnayak Home Services">
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= SERVICES ================= -->
+    <!-- BOOKING -->
 
-<section id="services" class="section">
+    <section id="booking" class="section booking-section">
 
-    <div class="section-title">
+        <div class="section-heading">
 
-        <p>OUR SERVICES</p>
-
-        <h2 data-text="servicesTitle">
-            Professional Home Services
-        </h2>
-
-        <span></span>
-
-    </div>
-
-    <div id="servicesContainer"
-         class="services-grid">
-
-    </div>
-
-</section>
-
-
-<!-- ================= BOOKING ================= -->
-
-<section id="booking" class="booking-section">
-
-    <div class="booking-container">
-
-        <div class="booking-info">
-
-            <p class="small-title">
-                BRAHAMADNAYAK
+            <p class="section-small"
+               data-text="bookService">
+                BOOK A SERVICE
             </p>
 
             <h2 data-text="bookingTitle">
-                Need a Home Service?
+                Request a Service
             </h2>
 
             <p data-text="bookingDescription">
-                Fill the form and send your service request
-                directly to us on WhatsApp.
+                Enter your details and contact us directly on WhatsApp.
             </p>
-
-            <div class="booking-points">
-
-                <div>
-                    ✓ Quick Response
-                </div>
-
-                <div>
-                    ✓ Professional Service
-                </div>
-
-                <div>
-                    ✓ Home Visit
-                </div>
-
-                <div>
-                    ✓ Easy WhatsApp Booking
-                </div>
-
-            </div>
 
         </div>
 
 
-        <div class="form-box">
+        <div class="booking-container">
 
             <form id="bookingForm">
 
-                <label data-text="nameLabel">
-                    Your Name
-                </label>
 
-                <input
-                    type="text"
-                    id="name"
-                    placeholder="Enter your name"
-                    required
-                >
+                <div class="form-group">
 
+                    <label for="customerName"
+                           data-text="nameLabel">
+                        Your Name
+                    </label>
 
-                <label data-text="addressLabel">
-                    Home Address
-                </label>
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your name"
+                        required>
 
-                <textarea
-                    id="address"
-                    placeholder="Enter your home address"
-                    rows="3"
-                    required></textarea>
+                </div>
 
 
-                <label data-text="mobileLabel">
-                    Mobile Number
-                </label>
+                <div class="form-group">
 
-                <input
-                    type="tel"
-                    id="mobile"
-                    placeholder="Enter mobile number"
-                    maxlength="10"
-                    required
-                >
+                    <label for="customerAddress"
+                           data-text="addressLabel">
+                        Home Address
+                    </label>
 
+                    <textarea
+                        id="customerAddress"
+                        placeholder="Enter your home address"
+                        rows="4"
+                        required></textarea>
 
-                <label data-text="serviceLabel">
-                    Select Service
-                </label>
-
-                <select id="service" required>
-
-                    <option value="">
-                        Select a service
-                    </option>
-
-                </select>
+                </div>
 
 
-                <label data-text="problemLabel">
-                    Task / Problem
-                </label>
+                <div class="form-group">
 
-                <textarea
-                    id="problem"
-                    placeholder="Describe your problem"
-                    rows="4"
-                    required></textarea>
+                    <label for="customerMobile"
+                           data-text="mobileLabel">
+                        Mobile Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="customerMobile"
+                        placeholder="Enter 10-digit mobile number"
+                        maxlength="10"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="serviceSelect"
+                           data-text="serviceLabel">
+                        Select Service
+                    </label>
+
+                    <select id="serviceSelect" required>
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option value="Washing Machine">
+                            Washing Machine
+                        </option>
+
+                        <option value="Water Filter / Purifier">
+                            Water Filter / Purifier
+                        </option>
+
+                        <option value="Geyser">
+                            Geyser
+                        </option>
+
+                        <option value="Water Cooler">
+                            Water Cooler
+                        </option>
+
+                        <option value="Fan Repairing">
+                            Fan Repairing
+                        </option>
+
+                        <option value="Home Wiring">
+                            Home Wiring
+                        </option>
+
+                        <option value="Fridge Repair">
+                            Fridge Repair
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customerProblem"
+                           data-text="problemLabel">
+                        Problem / Task
+                    </label>
+
+                    <textarea
+                        id="customerProblem"
+                        placeholder="Describe your problem"
+                        rows="4"
+                        required></textarea>
+
+                </div>
 
 
                 <button type="submit"
-                        class="whatsapp-btn">
+                        class="primary-btn booking-btn"
+                        data-text="sendWhatsApp">
 
-                    <span>💬</span>
-
-                    <span data-text="sendWhatsApp">
-                        Send Request on WhatsApp
-                    </span>
+                    Send Booking on WhatsApp
 
                 </button>
 
@@ -257,118 +411,114 @@
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= CONTACT ================= -->
+    <!-- CONTACT -->
 
-<section id="contact" class="contact-section">
+    <section id="contact" class="section contact-section">
 
-    <div class="section-title">
+        <div class="section-heading">
 
-        <p>CONTACT US</p>
+            <p class="section-small"
+               data-text="contactUs">
+                CONTACT US
+            </p>
 
-        <h2 data-text="contactTitle">
-            Get In Touch
-        </h2>
-
-        <span></span>
-
-    </div>
-
-
-    <div class="contact-container">
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📞
-            </div>
-
-            <h3 data-text="call">
-                Call Us
-            </h3>
-
-            <a href="tel:9075439504">
-                9075439504
-            </a>
+            <h2 data-text="contactTitle">
+                Get in Touch
+            </h2>
 
         </div>
 
 
-        <div class="contact-card">
+        <div class="contact-grid">
 
-            <div class="contact-icon">
-                💬
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    👨‍🔧
+                </div>
+
+                <h3 data-text="manager">
+                    Manager
+                </h3>
+
+                <p>
+                    Sachin Bade
+                </p>
+
             </div>
+
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📱
+                </div>
+
+                <h3 data-text="whatsapp">
+                    WhatsApp
+                </h3>
+
+                <a href="https://wa.me/919075439504"
+                   target="_blank">
+
+                    9075439504
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    🏠
+                </div>
+
+                <h3 data-text="serviceArea">
+                    Service
+                </h3>
+
+                <p data-text="serviceAreaText">
+                    Home Service
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-content">
 
             <h3>
-                WhatsApp
+                BRAHAMADNAYAK
             </h3>
 
-            <a href="https://wa.me/919075439504"
-               target="_blank">
+            <p data-text="footerText">
+                Your Home | Our Responsibility
+            </p>
 
-                9075439504
-
-            </a>
-
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                👨‍🔧
-            </div>
-
-            <h3 data-text="manager">
-                Service Manager
-            </h3>
-
-            <p>
-                Sachin Bade
+            <p class="copyright">
+                © <span id="year"></span>
+                Brahamadnayak. All Rights Reserved.
             </p>
 
         </div>
 
-    </div>
-
-</section>
+    </footer>
 
 
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <div class="footer-logo">
-
-        <img src="assest/brahamadnayak_logo.png"
-             alt="Brahamadnayak Logo">
-
-    </div>
-
-    <h3>BRAHAMADNAYAK</h3>
-
-    <p>
-        Home Service Experts
-    </p>
-
-    <p class="copyright">
-        © 2026 Brahamadnayak. All Rights Reserved.
-    </p>
-
-</footer>
-
-
-<!-- CURSOR GLOW -->
-
-<div id="cursorGlow"></div>
-
-
-<script src="app.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
